@@ -1,0 +1,28 @@
+.cmt
+{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.like{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+    color: #3498db;
+}
+.name_cmt
+{
+    color:blue;
+    font-weight: bold;
+}
+.content_cmt
+{
+    font-weight: 500;
+    color: black;
+}
+.like:hover
+{
+    text-decoration:underline;
+}

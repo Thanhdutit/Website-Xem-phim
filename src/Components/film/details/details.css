@@ -1,0 +1,189 @@
+
+.container-details-film 
+{
+    color: black;
+    background-color: #222222;
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.div-name
+{
+    display: flex;
+    margin-top: 50px;
+   
+    
+}
+.NameEpisode
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.episode-title
+{
+    margin-top: 20px;
+   margin-left:10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+}
+.img
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.div-left
+{
+    margin-left: 10px;
+    flex:6
+}
+.div-right
+{
+    flex:4;
+   
+}
+.div-left h1
+{
+    font-size: 20px;
+   margin-left:10px
+}
+.episode_all
+{
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.name_movie-details
+{
+    display: flex;
+    align-items: center;
+   margin-left:10px
+}
+.name_movie-details img
+{
+
+    height: 30px;
+}
+.name_movie-details h5
+{
+    color: orangered;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.episode
+{
+    padding: 10px 30px 10px 30px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container-details-film a
+{
+    text-decoration: none;
+    font-weight: 1000;
+    color: #fff;
+    
+}
+
+.comment-details
+{
+    width: 100%;
+    margin: 50px 10px 30px 0px;
+    background-color: #fff;
+}
+.container-details-film h2
+{
+    margin-bottom: 30px;
+}
+.block
+{
+    display: block;
+}
+.btn-sm button:hover
+{
+    background-color:cornflowerblue !important ;
+}
+.hidden{
+    display: none;
+}
+.comment-chat
+{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.comment-add input
+{
+    height:30px;
+    width: 30%;
+    outline: none;
+    border: none;
+   margin-left: 10px;
+   font-size: large;
+}
+.hr
+{
+    margin-top: 50px;
+}
+.comment-add
+{
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 10px;
+    background-color: #fff;
+    
+}
+.container-details-film .btn_add
+{
+
+    margin-left: 1050px;
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 1px;
+}
+.comment_log
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+   
+
+    
+  }
+  .video-container iframe
+  {
+
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 3px solid #4b74d3;
+  }
+  
+
+
+
+

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+
+
+.authen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 1rem 0.5rem;
+    
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAHBhAQBxEWFRMSFRYVGBcWERkVFRkWGhcWGBgTFR0ZHSgjGB0xGxUTJDEiJSkrLi4uFx8zODgsNyotLisBCgoKDg0OGBAQGy8mHyUtLS0rNy8tLTcuLTAtLS0tLS0tLTUtLTcvKy0tLSstLTUtNS0tLS0tKy0tNS0tKy0tLf/AABEIAMkA+wMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAABAUGAgMB/8QAMxABAAIBAgQCCAQHAQAAAAAAAAECAwQRBRIhMVFhFCNBcYGRscETIjKhJFKi0eHw8RX/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAgMEAQX/xAAiEQEBAQACAQQCAwAAAAAAAAAAAQIDEQQSITFRMkETFCL/2gAMAwEAAhEDEQA/AN0A9V4ICVo9DfV9adIj2z9I8XLZJ3Us5ur1EUTtXwy+mx828WiO+3eEK1Zr+qJj3xs5NS/DusazerHwBJAABJ0Wjtq7/l6RHeft5yutLw7Hprxau82j2zL5wusY9DTb2xvPvlK5mPk3q2z9PS4eHOcy35d7m7jmOZV009u9zdxzHMdHaDbhFL5rWtM7TO+0bRs883BazX1FpifPrCy5jmTm9/aq8PHf0y2bFOHJNckbTDhb8epE1pb27zHw7/771Q1416s9vN5cejVgAmrAAAAAAAAAAAATuG6D0ve2Sdqx06d5le4MVdPiiuLtCr4PqYjDyT3iZmPOJWP4rJy+q3qvS8eYmZZ8vfd5anFXU4Zrk9v7T4w5/EPxFXVX2yzqoeTg2OaertaJ89pj6KXLjnDlmt+8Ts0ts0Urvado82e1uaM+qtavaftG32aeLWrfdi8nGJJ6fl4gL2Nb8K1UTi/Dv3jt5wsOdmEimtyVjpb5xuo1xd3uNfH5PU6q/wCc52evqsl7RM2np8E3DxKJj10bT4x1hG8Vi3Pk5tWnOc6vvxDHEflmZ+H90HLrb5Mm9Z5fKJ+vi5OK13XkZyvucm+0dWd9JyRbfnn5ucma+SPWWmfj0S/hV/2p9JPE9VGoyxGP9Nf3lDBfJ1Ooya1dXugDqIAAC20XCYvji2pmevasdPmjrczPdZjj1u9R5cP4Z6TTmyztX2bd58/JLzcFpNPU2mJ8+sLHHWMeOK07RG0Ot2S8ure3oZ8fEz1YzHoOXmmIpPTp26fDxR5iaztaNpjxa/dD1nD6avLFrzMbRtO3t8Puszz/AGp34nt/ms4LnPwavL/D2nfwt1j9uyntWaWmLdJjpK7O5r4ZeTi1j8nwBNWPs3m3eZ+b4DqVXX5K123iffHVHyZLZbb5J3lyOTMjt3q+1oA6iAAAAAAAAAAAAAAAA+0mIyRzdt4arn3ZRM0vELYa8to3iO3jCrlx6vhp8flmO5V/znOp78V6fkr85ScOtrlr0tET4TO0qLx2Nc5829Sp/Oc6vz66uKveJnwid/8AiL/60/yf1f4Jx2mufOfa1dczP8StW2uv8PpD0y8Utau2ONvPfefggd+63j47L3Wbm55qdQAXsgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/9k=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+  
+  section {
+      width: 100%;
+      max-width: 420px;
+      min-height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1rem;
+      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.69);
+      border-radius: 3px;
+      background-color: #242424;
+      align-items: center;
+  
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      flex-grow: 1;
+      padding-bottom: 1rem;
+      
+  }
+  
+  .authen__link-au, .authen__link-au:visited {
+      margin-top: 15px;
+      color:#0d67c1;
+      
+      
+  }
+  
+  .authen__input[type="text"],
+  .authen__input[type="password"],
+  .btn__authen,
+  textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    margin: 10px 0px;
+  }
+  
+  label,
+  .btn__authen {
+    margin-top: 2rem;
+   
+  }
+  
+  .btn__authen {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    background-color: #0d67c1;
+    color: #fff;
+  }
+  
+  .instructions {
+      font-size: 0.75rem;
+      border-radius: 0.5rem;
+      background: rgb(238, 112, 112);
+      color: #fff;
+      padding: 0.25rem;
+      position: relative;
+      bottom: -10px;
+      border-radius: 3px;
+  }
+  
+  .instructions > svg {
+      margin-right: 0.25rem;
+  }
+  
+  .offscreen {
+      position: absolute;
+      left: -9999px;
+  }
+  
+  .hide {
+      display: none;
+  }
+  
+  .valid {
+      color: limegreen;
+      margin-left: 0.25rem;
+  }
+  
+  .invalid {
+      color: red;
+      margin-left: 0.25rem;
+  }
+  
+  .errmsg {
+      background-color: lightpink;
+      color: firebrick;
+      font-weight: bold;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+  }
+  
+  .line {
+      display: inline-block;
+  }
+
+  .lb__name{
+    margin-bottom: 20px;
+  }
+  
