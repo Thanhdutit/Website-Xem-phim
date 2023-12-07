@@ -79,7 +79,7 @@ const Register = () => {
     return (
         <>
             {success ? (
-                window.location.href='/login'
+                window.location.href='/dangnhap'
             ) : (
                 <div className='authen'>
                 <section>

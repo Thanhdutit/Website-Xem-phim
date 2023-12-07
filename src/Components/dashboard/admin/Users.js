@@ -41,7 +41,7 @@ function Users() {
   return (
     <SideBarHome>
       <div className='flex flex-col gap-6'>
-        <h2 className='text-xl font-bold'>The loai</h2>
+        <h2 className='text-xl font-bold'>Người dùng</h2>
 
 
         <Tablecom2 data={listUser} users={true} onDeleteFunction={OnDeletedFunction} />

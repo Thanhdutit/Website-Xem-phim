@@ -32,7 +32,7 @@ const BXHPhim = () => {
                     setIsAnime(true)
                     setUrl('http://localhost:1001/animes/')
                 }}>ANIME</button>
-                <Tablecom data={data.slice(data.length - 5, data.length)}/>
+                <Tablecom data={data.slice(data.length - 5, data.length)} anime={isAnime} />
             </div>
 
         </Layout>

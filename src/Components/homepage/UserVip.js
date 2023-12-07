@@ -6,7 +6,7 @@ function UserVip() {
   return (
     <Layout>
     <div className=' bg-main min-height-screen container mx-auto px-2 my-6'>
-      <Head title="User Vip" />
+      <Head title="CHÍNH SÁCH VIP" />
       <div className='xl:py-20 py-10 px-4'>
         <div className='grid gird-flow-row xl:grid-cols-2 gap-4 xl:gap-16 items-end'>
             <div>

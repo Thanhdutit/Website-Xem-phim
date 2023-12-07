@@ -40,9 +40,9 @@ function AnimeItem() {
         const data = await response.json()
         setAnime(data)
         const cate = await axios('http://localhost:1001/categoryFilms/'+data.categories_id)
-        setCate(cate.data.name)
         const au = await axios.get('http://localhost:1001/authors/films/'+data.author_id)
         setAuthor(au.data.data.name)
+        setCate(cate.data.name)
     }
 
     const getCharacters = async (id) => {
@@ -93,7 +93,7 @@ function AnimeItem() {
                             <div className='btn_details'>
                                 <a href={href} className='btn_xem'>Xem ngay</a>
                                 {
-                                    loading ? <Loader /> : <a onClick={HandleClickLike} className='btn_like'>{stateBtn ? 'Đã thích' : 'Thích'}</a>
+                                    loading ? <Loader /> : <a onClick={HandleClickLike} className={userID?'btn_like':'hidden'}>{stateBtn ? 'Đã thích' : 'Thích'}</a>
                                 }
                             </div>
                         </div>

@@ -28,11 +28,11 @@ function Footer() {
       links:[
         {
           name:'Phim phổ biến',
-          link:'/'
+          link:'/bxh'
         },
         {
           name:'Anime nổi bật',
-          link:'/phim',
+          link:'/bxh',
         },
       ]
     },

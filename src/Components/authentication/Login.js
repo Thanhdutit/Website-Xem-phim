@@ -11,7 +11,6 @@ const Login = () => {
     const [pwd, setPwd] = useState('');
     const [errMsg, setErrMsg] = useState('');
     const [success, setSuccess] = useState(false);
-
     useEffect(() => {
         userRef.current.focus();
     }, [])
@@ -23,6 +22,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+            
             const response = await axios.post('http://localhost:1001/login/local',
                 { username:user, password:pwd },
                 {

@@ -1,7 +1,7 @@
 import react from 'react'
 import './HomeStyle.css';
 import Image from './Image';
-import { AiFillPhone, AiOutlineBarChart } from "react-icons/ai";
+import { AiFillPhone, AiOutlineBarChart,AiFillThunderbolt } from "react-icons/ai";
 const Header = () => {
     let accessToken = localStorage.getItem('token')
     return (
@@ -16,9 +16,9 @@ const Header = () => {
                         <li className="header__navbar-item "><a className="header__navbar-item-link" href="/anime">ANIME</a></li>
                         <li className="header__navbar-item "><a className="header__navbar-item-link" href="/phim">PHIM</a></li>
                         <div>
-                            <li className="bxh"><a className="header__navbar-item-link" href="/bxh"><AiOutlineBarChart /><h5>BẢNG XẾP HẠNG</h5></a>
+                            <li className="bxh"><a className="header__navbar-item-link" href="/bxh"><AiOutlineBarChart /><h5>PHIM MỚI</h5></a>
                                 <a className="header__navbar-item-link " href="/contactUS"><AiFillPhone /><h5>LIÊN HỆ</h5></a>
-                                <a className="header__navbar-item-link " href="/vip-user"><AiFillPhone /><h5>Chính Sách VIP</h5></a>
+                                <a className="header__navbar-item-link " href="/vip-user"><AiFillThunderbolt /><h5>Chính Sách VIP</h5></a>
 
 
                             </li>

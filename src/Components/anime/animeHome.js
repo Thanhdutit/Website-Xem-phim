@@ -19,7 +19,6 @@ const FilmHome = () => {
     const [postsPerPage, setPostsPerPage] = useState(10);
     const [vip,setVip] = useState(false)
     useEffect(() => {
-        
         async function AuthorToken() {
             let data = await authorization()
             if (data != undefined) {
